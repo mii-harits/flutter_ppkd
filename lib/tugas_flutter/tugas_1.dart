@@ -7,7 +7,7 @@ class TugasSatu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff005461),
+        backgroundColor: Color(0xff008080),
         title: Text("Profil Saya"),
         centerTitle: true,
       ),
@@ -16,7 +16,7 @@ class TugasSatu extends StatelessWidget {
         spacing: 20,
         children: [
           Text(
-            "Nama : Andi Rahmat",
+            "Nama : Muhammad Harits",
             style: TextStyle(fontSize: 35),
           ),
           Row(
@@ -24,13 +24,15 @@ class TugasSatu extends StatelessWidget {
               Icon(Icons.location_on),
               Text(
                 "Jakarta",
+                style: TextStyle(fontSize: 15),
               ),
             ],
           ),
           Text(
             "Seorang Pelajar Yang Sedang Belajar Flutter",
             style: TextStyle(fontSize: 15)
-          )
+          ),
+          Image.asset("assets/images/upin.jpg")
         ],
       ),
     );
